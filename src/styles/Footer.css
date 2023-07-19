@@ -1,0 +1,38 @@
+footer {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  color: white;
+  grid-template-columns: 4fr 1fr;
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    > h1 {
+      font: 700 2rem italic;
+      text-transform: uppercase;
+    }
+    > p {
+      font: 500 1.2rem italic;
+    }
+    > h5 {
+      font: 300 2rem italic;
+      margin: 1rem 0;
+      text-align: center;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      > a {
+        color: white;
+        font: 900 1rem italic;
+        &:hover {
+          color: rgb(64, 64, 129);
+        }
+      }
+    }
+  }
+}
