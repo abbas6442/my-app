@@ -172,7 +172,7 @@
       color: white;
       text-transform: uppercase;
       width: 140px;
-      border: bottom 2px solid white;
+      border: none;
       padding: 0.5rem;
     }
     > article {
